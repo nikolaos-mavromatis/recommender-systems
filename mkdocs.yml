@@ -9,6 +9,7 @@ copyright: Maintained by <a href="https://nikolaos-mavromatis.com">nikolaos-mavr
 
 nav:
   - Home: index.md
+  - Rule-based Recommender: notebooks/rule_based_recommender.ipynb
   - Modules: modules.md
 plugins:
   - search
@@ -16,6 +17,10 @@ plugins:
       handlers:
         python:
           paths: [recommender_systems]
+          options:
+            docstring_style: numpy
+  - mknotebooks
+
 theme:
   name: material
   feature:

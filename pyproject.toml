@@ -43,6 +43,7 @@ dev = [
     "seaborn>=0.13.2",
     "ipykernel>=6.29.5",
     "ucimlrepo>=0.0.7",
+    "mknotebooks>=0.8.0",
 ]
 
 [build-system]
