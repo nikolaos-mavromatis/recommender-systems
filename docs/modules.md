@@ -1,1 +1,1 @@
-::: recommender_systems.foo
+::: recommender_systems.data.dataset
